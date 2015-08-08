@@ -10,8 +10,10 @@ cd /tmp
 
 # Dropbox
 sudo wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.02.12_amd64.deb
-#Teamviewer
+# Teamviewer
 sudo wget http://download.teamviewer.com/download/teamviewer_i386.deb
+# Haroopad
+https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.13.1-x64.deb
 
 sudo dpkg -i *.deb
 sudo apt-get -f install -y
